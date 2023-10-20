@@ -113,7 +113,11 @@ fun SearchScreen(modifier: Modifier = Modifier, viewModel: MainViewModel = andro
             Spacer(Modifier.size(8.dp))
 
             Button(
-                onClick = { viewModel.loadData() },
+                onClick = {
+                    viewModel.loadData()
+
+
+                          },
                 contentPadding = ButtonDefaults.ButtonWithIconContentPadding
             ) {
                 Icon(
