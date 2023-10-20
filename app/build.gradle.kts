@@ -65,4 +65,16 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
     implementation("com.github.bumptech.glide:compose:1.0.0-alpha.5")
+
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
+
+    //Utilisation générale
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:+")
+//ViewModelScope
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.+")
+
+    implementation("com.squareup.okhttp3:okhttp:+")
+    implementation("com.google.code.gson:gson:2.3")
+
+
 }
